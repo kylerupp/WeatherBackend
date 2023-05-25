@@ -25,6 +25,7 @@ Backend Server
 * Install net-tools so you can run ifconfig, the command is `sudo apt install net-tools`
 * `sudo apt install python3-pip`
 * `pip install flask`
+* `pip install flask-cors`
 * `pip install mysql-connector`
 * Run `sudo nano /etc/environment`
 * Add `SQL_USER`, `SQL_PASS`, `SQL_HOST`, `SQL_DB` using `export VAR_NAME="VAR_VALUE"`

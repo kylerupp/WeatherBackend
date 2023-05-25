@@ -1,10 +1,12 @@
 from datetime import datetime
 from flask import abort, Flask, jsonify, request
+from flask_cors import CORS
 from os import environ
 
 import connector
 
 app = Flask(__name__)
+CORS(app)
 
 config = {
     "user": environ.get('SQL_USER'),
